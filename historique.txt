@@ -1,0 +1,67 @@
+    1  sudo ip a
+    2  sudo apt install oppenssh
+    3  sudo apt install oppenssh-server -y
+    4  sudo apt install openssh-server -y
+    5  sudo nano /etc/ssh/sshd_config.d
+    6  sudo nano /etc/ssh/sshd_config
+    7  sudo systemctl restart ssh 
+    8  sudo systemctl restart sshd
+    9  sudo systemctl restart ssh
+   10  sudo ip a
+   11  sudo ufw status
+   12  sudo apt install ufw
+   13  sudo apt update
+   14  ping -c 4 8.8.8.8
+   15  ping -c 4 google.com
+   16  ip a
+   17  sudo systemctl restart networking.service
+   18  ip a
+   19  sudo dhclient
+   20  sud
+   21  sudo dhclient
+   22  ip 
+   23  ip a 
+   24  ping -c 4 google.com
+   25  clear
+   26  sudo ssh-keygen
+   27  sudo ssh-copy-id lawson@192.168.100.128
+   28  mount | grep '/'
+   29  touch testfile
+   30  sudo touche testfile
+   31  sudo mount -o remount,rw /
+   32  sudo ssh-keygen
+   33  sudo ssh-copy-id lawson@192.168.100.128
+   34  sudo systemctl restart ssh
+   35  exit
+   36  nmap -o 192.168.85.128
+   37  nmap -A 192.168.85.128
+   38  nmap -script vuln 192.168.85.128
+   39  nmap -- vuln 192.168.85.128
+   40  nmap --script vuln 192.168.85.128
+   41  nmap -o 192.168.85.128
+   42  nmap -A -p- 192.168.85.128
+   43  searchsploit vsftpd 2.3.4
+   44  nikto -h http://192.168.85.128
+   45  history
+   46  history > historique.txt
+   47  cat historique.txt
+   48  ls historique.txt
+   49  echo "# -Scan-de-vuln-rabilit-s-avec-Kali-Linux" >> README.md
+   50  git init
+   51  git add .
+   52  git commit -m "first commit"
+   53  git branch -M main
+   54  git remote add origin https://github.com/zbooktinos-netizen/-Scan-de-vuln-rabilit-s-avec-Kali-Linux.git
+   55  git push -u origin main
+   56  git commit -m "first commit"
+   57  git config --global user.name "zbooktinos-netizen"
+   58  git config --global user.email "zbooktino@gmail.com"
+   59  git commit -m "first commit"
+   60  mkdir historique
+   61  cd historique
+   62  exit
+   63  ls 
+   64  mv historique.txt README.md historique
+   65  ls
+   66  cd historique
+   67  ls
